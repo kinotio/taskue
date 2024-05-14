@@ -19,6 +19,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 // import specific icons
 import { faPlus, faCheck, faXmark } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 // import vue notification
 import Notifications from '@kyvg/vue3-notification'
@@ -29,6 +30,7 @@ const app = createApp(App)
 library.add(faPlus)
 library.add(faCheck)
 library.add(faXmark)
+library.add(faGithub)
 
 // use plugins
 app.use(createPinia())
