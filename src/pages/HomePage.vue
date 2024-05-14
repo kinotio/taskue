@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import TaskManagement from '@components/tasks/TaskManagement.vue'
-import TodosComponent from '@components/todos/TodosComponent.vue'
 </script>
 
 <template>
@@ -14,16 +13,4 @@ import TodosComponent from '@components/todos/TodosComponent.vue'
 
   <hr class="py-4" />
   <TaskManagement />
-
-  <hr class="py-4 mt-14" />
-
-  <div>
-    <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl">
-      In this section you have a sample data we retreive from
-      <a href="https://jsonplaceholder.typicode.com/" class="text-teal-500">JSONPlaceholder</a>
-    </h1>
-
-    <hr class="py-4 mt-14" />
-    <TodosComponent />
-  </div>
 </template>
